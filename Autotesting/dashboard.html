@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Simulador de Exámenes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dashboard-styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+            <p class="subtitle">Tu progreso de aprendizaje</p>
+        </header>
+        
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="statistics.html" class="nav-link">Estadísticas</a>
+        </nav>
+        
+        <div class="dashboard-content">
+            <div class="stats-summary">
+                <div class="stat-card">
+                    <h3>Exámenes Completados</h3>
+                    <p class="stat-number" id="total-exams">0</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Promedio General</h3>
+                    <p class="stat-number" id="average-score">0%</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Racha Actual</h3>
+                    <p class="stat-number" id="current-streak">0 días</p>
+                </div>
+                <div class="stat-card">
+                    <h3>Tiempo Total</h3>
+                    <p class="stat-number" id="total-time">0 min</p>
+                </div>
+            </div>
+            
+            <div class="recent-activity">
+                <h2>Actividad Reciente</h2>
+                <div id="recent-exams">
+                    <p class="no-data">No hay exámenes recientes</p>
+                </div>
+            </div>
+            
+            <div class="next-review">
+                <h2>Próximas Revisiones</h2>
+                <div id="pending-reviews">
+                    <p class="no-data">No hay revisiones programadas</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Simulador de Exámenes</p>
+        </footer>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

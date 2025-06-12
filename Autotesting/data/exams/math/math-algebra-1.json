@@ -1,0 +1,146 @@
+{
+  "examTitle": "Álgebra Lineal",
+  "subject": "math",
+  "topic": "algebra",
+  "subtopic": "linear",
+  "difficulty": "intermediate",
+  "timeLimit": 480,
+  "questions": [
+    {
+      "id": "alg-001",
+      "type": "regular",
+      "topic": "algebra",
+      "subtopic": "linear",
+      "difficulty": "easy",
+      "tags": ["ecuaciones", "primer grado"],
+      "question": "Resuelve para x: 3x + 7 = 22",
+      "options": [
+        "x = 3",
+        "x = 5",
+        "x = 7",
+        "x = 9"
+      ],
+      "correct": 1,
+      "feedback": "Restando 7 de ambos lados: 3x = 15, luego dividiendo entre 3: x = 5"
+    },
+    {
+      "id": "alg-002",
+      "type": "regular",
+      "topic": "algebra",
+      "subtopic": "linear",
+      "difficulty": "medium",
+      "tags": ["sistemas", "sustitución"],
+      "question": "Resuelve el sistema: x + y = 10, x - y = 4. ¿Cuál es el valor de x?",
+      "options": [
+        "x = 3",
+        "x = 5",
+        "x = 7",
+        "x = 9"
+      ],
+      "correct": 2,
+      "feedback": "Sumando las ecuaciones: 2x = 14, entonces x = 7. Verificando: y = 3"
+    },
+    {
+      "id": "alg-003",
+      "type": "regular",
+      "topic": "algebra",
+      "subtopic": "linear",
+      "difficulty": "medium",
+      "tags": ["factorización", "diferencia de cuadrados"],
+      "question": "Factoriza: x² - 25",
+      "options": [
+        "(x - 5)(x - 5)",
+        "(x + 5)(x + 5)",
+        "(x + 5)(x - 5)",
+        "(x + 25)(x - 1)"
+      ],
+      "correct": 2,
+      "feedback": "x² - 25 es una diferencia de cuadrados: x² - 5² = (x + 5)(x - 5)"
+    },
+    {
+      "id": "alg-004",
+      "type": "regular",
+      "topic": "algebra",
+      "subtopic": "linear",
+      "difficulty": "hard",
+      "tags": ["matrices", "determinante"],
+      "question": "Calcula el determinante de la matriz [[2, 3], [1, 4]]",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "11"
+      ],
+      "correct": 1,
+      "feedback": "Det = (2)(4) - (3)(1) = 8 - 3 = 5"
+    },
+    {
+      "id": "alg-005",
+      "type": "regular",
+      "topic": "algebra",
+      "subtopic": "linear",
+      "difficulty": "easy",
+      "tags": ["simplificación", "expresiones"],
+      "question": "Simplifica: 2(3x - 4) + 5x",
+      "options": [
+        "11x - 8",
+        "11x - 4",
+        "8x - 8",
+        "8x - 4"
+      ],
+      "correct": 0,
+      "feedback": "2(3x - 4) + 5x = 6x - 8 + 5x = 11x - 8"
+    },
+    {
+      "id": "alg-006",
+      "type": "regular",
+      "topic": "algebra",
+      "subtopic": "linear",
+      "difficulty": "medium",
+      "tags": ["inecuaciones", "desigualdades"],
+      "question": "Resuelve: 2x - 3 < 7",
+      "options": [
+        "x < 2",
+        "x < 5",
+        "x < 7",
+        "x < 10"
+      ],
+      "correct": 1,
+      "feedback": "Sumando 3: 2x < 10, luego dividiendo entre 2: x < 5"
+    },
+    {
+      "id": "alg-007",
+      "type": "regular",
+      "topic": "algebra",
+      "subtopic": "linear",
+      "difficulty": "hard",
+      "tags": ["sistemas", "tres variables"],
+      "question": "En el sistema x + y + z = 6, x + y = 4, y + z = 5, ¿cuál es el valor de z?",
+      "options": [
+        "z = 1",
+        "z = 2",
+        "z = 3",
+        "z = 4"
+      ],
+      "correct": 1,
+      "feedback": "De x + y = 4 y x + y + z = 6, obtenemos z = 2. Verificando: y = 3, x = 1"
+    },
+    {
+      "id": "alg-008",
+      "type": "regular",
+      "topic": "algebra",
+      "subtopic": "linear",
+      "difficulty": "medium",
+      "tags": ["fracciones algebraicas", "simplificación"],
+      "question": "Simplifica: (x² - 4)/(x - 2)",
+      "options": [
+        "x - 2",
+        "x + 2",
+        "x² + 2",
+        "2x"
+      ],
+      "correct": 1,
+      "feedback": "(x² - 4)/(x - 2) = (x + 2)(x - 2)/(x - 2) = x + 2"
+    }
+  ]
+}

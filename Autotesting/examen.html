@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Examen</title>
+    <link rel="stylesheet" href="css/exam-styles.css">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Examen</h1>
+        <div class="timer" id="timer">00:30</div>
+        <div id="progress">Pregunta 1 de 3</div>
+        <div id="quiz">
+            <!-- Las preguntas se cargarán aquí -->
+        </div>
+        <button class="btn" id="nextBtn">Siguiente</button>
+        <div class="results" id="results">
+            <h2>Resultados del examen</h2>
+            <p>Puntuación: <span id="score">0</span> de 3</p>
+            <p>Porcentaje de aciertos: <span id="percentage">0</span>%</p>
+            <h3>Retroalimentación detallada:</h3>
+            <div id="detailed-feedback"></div>
+        </div>
+    </div>
+    <script src="js/exam-script.js"></script>
+</body>
+</html>

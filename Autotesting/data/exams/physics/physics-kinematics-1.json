@@ -1,0 +1,180 @@
+{
+  "examTitle": "Cinemática Básica",
+  "subject": "physics",
+  "topic": "mechanics",
+  "subtopic": "kinematics",
+  "difficulty": "intermediate",
+  "timeLimit": 600,
+  "questions": [
+    {
+      "id": "kin-001",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "easy",
+      "tags": ["velocidad", "MRU"],
+      "question": "Un automóvil viaja a velocidad constante de 80 km/h. ¿Qué distancia recorre en 2.5 horas?",
+      "options": [
+        "160 km",
+        "180 km", 
+        "200 km",
+        "220 km"
+      ],
+      "correct": 2,
+      "feedback": "Usando d = v × t, donde v = 80 km/h y t = 2.5 h, obtenemos d = 80 × 2.5 = 200 km"
+    },
+    {
+      "id": "kin-002",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "medium",
+      "tags": ["aceleración", "MRUA"],
+      "question": "Un objeto parte del reposo con aceleración constante de 2 m/s². ¿Cuál es su velocidad después de 5 segundos?",
+      "options": [
+        "5 m/s",
+        "10 m/s",
+        "15 m/s",
+        "20 m/s"
+      ],
+      "correct": 1,
+      "feedback": "Usando v = v₀ + at, donde v₀ = 0, a = 2 m/s² y t = 5 s, obtenemos v = 0 + 2×5 = 10 m/s"
+    },
+    {
+      "id": "kin-003",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "medium",
+      "tags": ["distancia", "MRUA"],
+      "question": "Un tren frena con desaceleración constante de 1.5 m/s². Si su velocidad inicial era 30 m/s, ¿qué distancia recorre hasta detenerse?",
+      "options": [
+        "200 m",
+        "250 m",
+        "300 m",
+        "350 m"
+      ],
+      "correct": 2,
+      "feedback": "Usando v² = v₀² + 2ad con v = 0, v₀ = 30 m/s, a = -1.5 m/s², obtenemos 0 = 900 - 3d, entonces d = 300 m"
+    },
+    {
+      "id": "kin-004",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "hard",
+      "tags": ["caída libre", "gravedad"],
+      "question": "Se deja caer una pelota desde una altura de 45 m. ¿Cuánto tiempo tarda en llegar al suelo? (g = 10 m/s²)",
+      "options": [
+        "2 s",
+        "3 s",
+        "4 s",
+        "5 s"
+      ],
+      "correct": 1,
+      "feedback": "Usando h = ½gt² con h = 45 m y g = 10 m/s², obtenemos 45 = 5t², entonces t² = 9, t = 3 s"
+    },
+    {
+      "id": "kin-005",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "medium",
+      "tags": ["velocidad media", "MRU"],
+      "question": "Un ciclista recorre 30 km en 1.5 horas. ¿Cuál es su velocidad media?",
+      "options": [
+        "15 km/h",
+        "20 km/h",
+        "25 km/h",
+        "30 km/h"
+      ],
+      "correct": 1,
+      "feedback": "La velocidad media es v = d/t = 30 km / 1.5 h = 20 km/h"
+    },
+    {
+      "id": "kin-006",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "hard",
+      "tags": ["tiro vertical", "gravedad"],
+      "question": "Se lanza una pelota verticalmente hacia arriba con velocidad inicial de 20 m/s. ¿A qué altura máxima llega? (g = 10 m/s²)",
+      "options": [
+        "15 m",
+        "20 m",
+        "25 m",
+        "30 m"
+      ],
+      "correct": 1,
+      "feedback": "En el punto más alto v = 0. Usando v² = v₀² - 2gh, obtenemos 0 = 400 - 20h, entonces h = 20 m"
+    },
+    {
+      "id": "kin-007",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "easy",
+      "tags": ["conversión", "unidades"],
+      "question": "Convierte 72 km/h a m/s",
+      "options": [
+        "15 m/s",
+        "20 m/s",
+        "25 m/s",
+        "30 m/s"
+      ],
+      "correct": 1,
+      "feedback": "Para convertir km/h a m/s, dividimos entre 3.6: 72 ÷ 3.6 = 20 m/s"
+    },
+    {
+      "id": "kin-008",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "medium",
+      "tags": ["gráficas", "interpretación"],
+      "question": "En una gráfica velocidad-tiempo, ¿qué representa el área bajo la curva?",
+      "options": [
+        "La aceleración",
+        "La velocidad final",
+        "La distancia recorrida",
+        "El tiempo transcurrido"
+      ],
+      "correct": 2,
+      "feedback": "El área bajo la curva en una gráfica v-t representa la distancia o desplazamiento recorrido"
+    },
+    {
+      "id": "kin-009",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "hard",
+      "tags": ["movimiento relativo"],
+      "question": "Dos trenes viajan en la misma dirección. El tren A va a 80 km/h y el tren B a 100 km/h. ¿Cuál es la velocidad relativa de B respecto a A?",
+      "options": [
+        "20 km/h",
+        "80 km/h",
+        "100 km/h",
+        "180 km/h"
+      ],
+      "correct": 0,
+      "feedback": "La velocidad relativa es la diferencia de velocidades: 100 - 80 = 20 km/h"
+    },
+    {
+      "id": "kin-010",
+      "type": "regular",
+      "topic": "mechanics",
+      "subtopic": "kinematics",
+      "difficulty": "medium",
+      "tags": ["aceleración", "cambio de velocidad"],
+      "question": "Un auto acelera de 0 a 100 km/h en 10 segundos. ¿Cuál es su aceleración media en m/s²?",
+      "options": [
+        "2.78 m/s²",
+        "5.56 m/s²",
+        "8.33 m/s²",
+        "10 m/s²"
+      ],
+      "correct": 0,
+      "feedback": "Primero convertimos 100 km/h = 27.78 m/s. Luego a = Δv/t = 27.78/10 = 2.78 m/s²"
+    }
+  ]
+}

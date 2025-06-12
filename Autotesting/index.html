@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Exámenes</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simulador de Exámenes</h1>
+            <p class="subtitle">Selecciona un examen para comenzar</p>
+        </header>
+        
+        <nav class="main-nav">
+            <a href="dashboard.html" class="nav-link">Dashboard</a>
+            <a href="statistics.html" class="nav-link">Estadísticas</a>
+        </nav>
+        
+        <div class="exams-container" id="exams-container">
+            <!-- Los exámenes se cargarán aquí dinámicamente -->
+            <div class="loading">Cargando exámenes disponibles...</div>
+        </div>
+
+        <div class="info-section">
+            <div class="info-card">
+                <h3>¿Cómo funciona?</h3>
+                <p>Selecciona cualquier examen de la lista para comenzar a practicar. Cada simulacro incluye un temporizador y retroalimentación detallada para ayudarte a mejorar.</p>
+            </div>
+            <div class="info-card">
+                <h3>Instrucciones</h3>
+                <ul>
+                    <li>Responde todas las preguntas antes de que se acabe el tiempo</li>
+                    <li>Puedes navegar entre las preguntas usando los números en la parte superior</li>
+                    <li>Al finalizar, recibirás un análisis detallado de tu rendimiento</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Simulador de Exámenes</p>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

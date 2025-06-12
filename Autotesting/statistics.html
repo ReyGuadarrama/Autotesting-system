@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas - Simulador de Exámenes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dashboard-styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Estadísticas Detalladas</h1>
+            <p class="subtitle">Análisis completo de tu rendimiento</p>
+        </header>
+        
+        <nav class="main-nav">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="dashboard.html" class="nav-link">Dashboard</a>
+        </nav>
+        
+        <div class="statistics-content">
+            <div class="filters">
+                <label>
+                    Período:
+                    <select id="period-filter">
+                        <option value="week">Última semana</option>
+                        <option value="month" selected>Último mes</option>
+                        <option value="all">Todo el tiempo</option>
+                    </select>
+                </label>
+                <label>
+                    Asignatura:
+                    <select id="subject-filter">
+                        <option value="all">Todas</option>
+                        <option value="math">Matemáticas</option>
+                        <option value="physics">Física</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div class="charts-container">
+                <div class="chart-card">
+                    <h3>Progreso Temporal</h3>
+                    <canvas id="progress-chart"></canvas>
+                </div>
+                
+                <div class="chart-card">
+                    <h3>Rendimiento por Tema</h3>
+                    <canvas id="topics-chart"></canvas>
+                </div>
+                
+                <div class="chart-card">
+                    <h3>Distribución de Dificultad</h3>
+                    <canvas id="difficulty-chart"></canvas>
+                </div>
+                
+                <div class="chart-card">
+                    <h3>Tiempo de Respuesta</h3>
+                    <canvas id="time-chart"></canvas>
+                </div>
+            </div>
+            
+            <div class="detailed-stats">
+                <h2>Estadísticas por Tema</h2>
+                <div id="topic-breakdown">
+                    <p class="no-data">No hay datos suficientes para mostrar</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Simulador de Exámenes</p>
+        </footer>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/statistics.js"></script>
+</body>
+</html>
